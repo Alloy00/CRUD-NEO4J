@@ -67,8 +67,8 @@ def menu(session, opcao):
 
 def main():
     driver = GraphDatabase.driver(
-        "bolt://54.91.205.9:7687",
-        auth=basic_auth("neo4j", "sum-sample-atom"))
+        "bolt://3.80.162.3:7687",
+        auth=basic_auth("neo4j", "bin-collisions-thursdays"))
 
     #Conexão com banco local
     '''driver = GraphDatabase.driver(
